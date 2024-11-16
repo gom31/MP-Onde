@@ -67,6 +67,8 @@ dependencies {
 
     implementation("com.google.firebase:firebase-analytics")
 
+    // Google Sign-In
+    implementation ("com.google.android.gms:play-services-auth:20.7.0'")
 
     // jetapack compose
     implementation("androidx.compose.ui:ui:1.5.1")
