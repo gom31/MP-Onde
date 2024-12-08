@@ -179,12 +179,12 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
             checkPermissionsAndToggleAdvertise(isAdvertising)
             updateAdvertiseButtonIcon()
         }
-        topAppBar.setNavigationOnClickListener {
+        /*topAppBar.setNavigationOnClickListener {
             isAdvertising = !isAdvertising
             bluetoothSwitch.isChecked = isAdvertising
             checkPermissionsAndToggleAdvertise(isAdvertising)
             updateAdvertiseButtonIcon()
-        }
+        }*/
 
         // 상단 앱바 위의 버튼들
         extraFunctionButton = findViewById(R.id.extraFunctionButton)
